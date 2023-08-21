@@ -34,6 +34,9 @@ h1 {
   margin-bottom: 10px;
   background-color: #ff9776;
 }
+#line2{
+  background-color: greenyellow;
+}
 
 .nav-links {
   width: 100%;
