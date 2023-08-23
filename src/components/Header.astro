@@ -2,11 +2,14 @@
 const { pageTitle } = Astro.props;
 import Navigation from "../components/Navigation.astro";
 import Hamburger from "../components/Hamburguer.astro";
+import Themelcon from "./Themelcon.astro";
+
 ---
 
 <header>
   <nav>
-    <Navigation />
     <Hamburger />
+    <Themelcon/>
+    <Navigation />
   </nav>
 </header>
